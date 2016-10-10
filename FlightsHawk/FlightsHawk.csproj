@@ -32,9 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Airlines.cs" />
     <Compile Include="CreateNewFlightForm.cs" />
     <Compile Include="Flight.cs" />
     <Compile Include="FlightsForm.cs" />
+    <Compile Include="FlightSql.cs" />
     <Compile Include="MainRunThread.cs" />
   </ItemGroup>
   <ItemGroup>

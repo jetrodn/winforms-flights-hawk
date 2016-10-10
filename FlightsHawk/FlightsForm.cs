@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -52,7 +53,6 @@ namespace FlightsHawk
         //
         private void FlightsForm_Load(object sender, EventArgs e)
         {
-            //производим коннект к БД
             Flight flights = new Flight();
             flights.OpenSqlConection();
             LoadList();
@@ -242,13 +242,7 @@ namespace FlightsHawk
             labelFreeSeats.Text = "Free seats";
 
             comboBoxAirLine.FormattingEnabled = true;
-            comboBoxAirLine.Items.AddRange(new object[]
-            {
-                "United Airlines",
-                "Turkish Airlines",
-                "AirMoldova",
-                "FeedEx"
-            });
+            comboBoxAirLine.Items.AddRange(new Airlines().GetAirlines());
             comboBoxAirLine.Location = new Point(2405, 108);
             comboBoxAirLine.Name = "comboBoxAirLine";
             comboBoxAirLine.Size = new Size(262, 34);
@@ -352,28 +346,48 @@ namespace FlightsHawk
             updateButton.Enabled = false;
 
             Flight flight = new Flight();
-            dataReader = flight.GetAllFlights();
+            flight.OpenSqlConection();
 
-            if (dataReader.HasRows)
+            var countAllRows = flight.GetCountAllRows();
+            for (int id = 1; id < countAllRows; id++)
             {
-                while (dataReader.Read())
-                {
-                    listBox.ColumnWidth = 600;
-
-                    listBox.Items.Add(
-                        dataReader[0].ToString().PadRight(10 - dataReader[0].ToString().Length) + "\t"
-                        + dataReader[1].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
-                        + dataReader[2].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
-                        + dataReader[3].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t\t"
-                        + dataReader[4].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
-                        + dataReader[5].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
-                        + dataReader[6].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
-                        + dataReader[7].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
-                        + dataReader[8].ToString().PadRight(20 - dataReader[8].ToString().Length) + "\t"
-                        + dataReader[9]
-                    );
-                }
+                NameValueCollection temp = flight.GetFlightNVCollection(id);
+                listBox.Items.Add(
+                    temp["id"].PadRight(10 - temp["id"].Length) + "\t"
+                    + temp["flight_number"].PadRight(20 - temp["flight_number"].Length) + "\t"
+                    + temp["aircraft"].PadRight(20 - temp["aircraft"].Length) + "\t"
+                    + temp["departure_time"].PadRight(50 - temp["departure_time"].Length) + "\t\t"
+                    + temp["landing_time"].PadRight(20 - temp["landing_time"].Length) + "\t"
+                    + temp["status"].PadRight(20 - temp["status"].Length) + "\t"
+                    + temp["destination"].PadRight(20 - temp["destination"].Length) + "\t"
+                    + temp["airline"].PadRight(20 - temp["airline"].Length) + "\t"
+                    + temp["free_seats"].PadRight(20 - temp["free_seats"].Length)
+                );
             }
+
+
+//            MessageBox.Show(temp["flight_number"].ToString());
+
+//            if (dataReader.HasRows)
+//            {
+//                while (dataReader.Read())
+//                {
+//                    listBox.ColumnWidth = 600;
+//
+//                    listBox.Items.Add(
+//                        dataReader[0].ToString().PadRight(10 - dataReader[0].ToString().Length) + "\t"
+//                        + dataReader[1].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
+//                        + dataReader[2].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
+//                        + dataReader[3].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t\t"
+//                        + dataReader[4].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
+//                        + dataReader[5].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
+//                        + dataReader[6].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
+//                        + dataReader[7].ToString().PadRight(20 - dataReader[0].ToString().Length) + "\t"
+//                        + dataReader[8].ToString().PadRight(20 - dataReader[8].ToString().Length) + "\t"
+//                        + dataReader[9]
+//                    );
+//                }
+//            }
 
             flight.CloseSqlConnection();
         }
@@ -431,35 +445,51 @@ namespace FlightsHawk
                 //    @"ID: " + sourceLine.Substring(0, Math.Max(sourceLine.IndexOf('\t'), 10))
                 //    + "Flight number: " + listBoxLocal.SelectedItem.ToString().Substring(30, '\t')); //10 second, 30, 60
 
-                Flight flights = new Flight();
-                dataReader = flights.GetAllFlights();
+                //dataReader = flights.GetAllFlights();
 
-                int countRowIndex = listBoxLocal.SelectedIndex;
+                var rowIndex = listBoxLocal.SelectedIndex;
+                rowIndex++; //так как индексы начинаются с 0, инкрементим
+                Flight flight = new Flight();
+                flight.OpenSqlConection();
+                NameValueCollection temp = flight.GetFlightNVCollection(rowIndex);
+
+                textID.Text = temp["id"];
+                textFlightNumber.Text = temp["flight_number"];
+                textAircraft.Text = temp["aircraft"];
+                textDepartureTime.Text = temp["departure_time"];
+                textLandingTime.Text = temp["landing_time"];
+                textStatus.Text = temp["status"];
+                textFrom.Text = temp["departure"];
+                textTo.Text = temp["destination"];
+                comboBoxAirLine.Text = temp["airline"];
+                numericUpDownFreeSeats.Text = temp["free_seats"];
+
+
                 //MessageBox.Show(countRowIndex.ToString());
-                int count = 0;
-
-                if (dataReader.HasRows)
-                {
-                    while (dataReader.Read())
-                    {
-                        //если нужная нам строчка совпадает с индексом, то тогда заполняем наши текстовые поля
-                        if (count == countRowIndex)
-                        {
-                            textID.Text = dataReader[0].ToString();
-                            textFlightNumber.Text = dataReader[1].ToString();
-                            textAircraft.Text = dataReader[2].ToString();
-                            textDepartureTime.Text = dataReader[3].ToString();
-                            textLandingTime.Text = dataReader[4].ToString();
-                            textStatus.Text = dataReader[5].ToString();
-                            textFrom.Text = dataReader[6].ToString();
-                            textTo.Text = dataReader[7].ToString();
-                            comboBoxAirLine.Text = dataReader[8].ToString();
-                            numericUpDownFreeSeats.Text = dataReader[9].ToString();
-                        }
-                        count++;
-                    }
-                }
-                flights.CloseSqlConnection();
+//                int count = 0;
+//
+//                if (dataReader.HasRows)
+//                {
+//                    while (dataReader.Read())
+//                    {
+//                        //если нужная нам строчка совпадает с индексом, то тогда заполняем наши текстовые поля
+//                        if (count == countRowIndex)
+//                        {
+//                            textID.Text = dataReader[0].ToString();
+//                            textFlightNumber.Text = dataReader[1].ToString();
+//                            textAircraft.Text = dataReader[2].ToString();
+//                            textDepartureTime.Text = dataReader[3].ToString();
+//                            textLandingTime.Text = dataReader[4].ToString();
+//                            textStatus.Text = dataReader[5].ToString();
+//                            textFrom.Text = dataReader[6].ToString();
+//                            textTo.Text = dataReader[7].ToString();
+//                            comboBoxAirLine.Text = dataReader[8].ToString();
+//                            numericUpDownFreeSeats.Text = dataReader[9].ToString();
+//                        }
+//                        count++;
+//                    }
+//                }
+//                flights.CloseSqlConnection();
             }
         }
 
@@ -468,7 +498,6 @@ namespace FlightsHawk
         //
         private void updateButton_Click(object sender, EventArgs e)
         {
-
             String updateSqlCommand = "UPDATE FLIGHTS SET " +
                                       "id = '" + textID.Text + "', " +
                                       "flight_number = '" + textFlightNumber.Text + "', " +
