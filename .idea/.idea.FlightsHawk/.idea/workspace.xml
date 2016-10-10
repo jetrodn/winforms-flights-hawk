@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9245ed17-22b8-441e-a9f3-2cbd0afcc88d" name="Default" comment="" />
+    <ignored path="FlightsHawk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="FlightsHawk" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+          <file leaf-file-name="Flight.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../../FlightsHawk/Flight.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+                  <folding>
+                    <marker date="1476111064159" expanded="true" signature="6:74" ph="..." />
+                    <marker date="1476111064159" expanded="true" signature="97:1893" ph="{...}" />
+                    <marker date="1476111064159" expanded="true" signature="123:1891" ph="{...}" />
+                    <marker date="1476111064159" expanded="true" signature="440:504" ph="/* ... */" />
+                    <marker date="1476111064159" expanded="true" signature="543:741" ph="{...}" />
+                    <marker date="1476111064159" expanded="true" signature="751:809" ph="/* ... */" />
+                    <marker date="1476111064159" expanded="true" signature="850:902" ph="{...}" />
+                    <marker date="1476111064159" expanded="true" signature="912:967" ph="/* ... */" />
+                    <marker date="1476111064159" expanded="true" signature="1016:1381" ph="{...}" />
+                    <marker date="1476111064159" expanded="true" signature="1391:1465" ph="/* ... */" />
+                    <marker date="1476111064159" expanded="true" signature="1510:1885" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+          <file leaf-file-name="FlightsForm.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../../FlightsHawk/FlightsForm.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="520">
+                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                  <folding>
+                    <marker date="1476109634360" expanded="true" signature="6:121" ph="..." />
+                    <marker date="1476109634360" expanded="true" signature="144:20142" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="182:20140" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="197:260" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="1208:1276" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="1555:1604" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="1633:1689" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="1699:1770" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="1836:1962" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="1972:2033" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="2077:13149" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="10979:11112" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="11412:11474" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="12494:12580" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="12935:13110" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="13159:13240" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="13308:13449" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="13459:13558" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="13590:15096" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="15106:15172" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="15209:15596" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="15606:15688" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="15756:16280" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="16290:16355" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="16433:18667" ph="{...}" />
+                    <marker date="1476109634360" expanded="true" signature="16776:17187" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="18677:18749" ph="/* ... */" />
+                    <marker date="1476109634360" expanded="true" signature="18817:20134" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../FlightsHawk/Main.cs" />
+        <option value="$PROJECT_DIR$/../../FlightsHawk/Run.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/80bac5ee-c957-424f-bf59-3a311ed3eb7b/console.sql" />
+        <option value="$PROJECT_DIR$/../../FlightsHawk/MainRunThread.cs" />
+        <option value="$PROJECT_DIR$/../../FlightsHawk/CreateNewFlightForm.cs" />
+        <option value="$PROJECT_DIR$/../../FlightsHawk/FlightsForm.cs" />
+        <option value="$PROJECT_DIR$/../../FlightsHawk/Flight.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2906" />
+    <option name="height" value="1566" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlightsHawk (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlightsHawk" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Workflow\Rider Projects\FlightsHawk\FlightsHawk" />
+    </key>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../../FlightsHawk/FlightsHawk.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../FlightsHawk/bin/Debug/FlightsHawk.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../FlightsHawk/bin/Debug" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9245ed17-22b8-441e-a9f3-2cbd0afcc88d" name="Default" comment="" />
+      <created>1476093659922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1476093659922</updated>
+      <workItem from="1476093662216" duration="4935000" />
+      <workItem from="1476101370386" duration="975000" />
+      <workItem from="1476102362662" duration="168000" />
+      <workItem from="1476102653443" duration="2921000" />
+      <workItem from="1476110690817" duration="488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9487000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-13" y="-13" width="2906" height="1566" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2788388" sideWeight="0.49856734" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23101719" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925898" sideWeight="0.50143266" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1291062" sideWeight="0.49856734" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925898" sideWeight="0.49856734" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22001527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13896848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925898" sideWeight="0.49856734" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30229226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20702827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/Flight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <marker date="1476111064159" expanded="true" signature="6:74" ph="..." />
+            <marker date="1476111064159" expanded="true" signature="97:1893" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="123:1891" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="440:504" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="543:741" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="751:809" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="850:902" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="912:967" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1016:1381" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="1391:1465" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1510:1885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/FlightsForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476109634360" expanded="true" signature="6:121" ph="..." />
+            <marker date="1476109634360" expanded="true" signature="144:20142" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="182:20140" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="197:260" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1208:1276" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1555:1604" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1633:1689" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1699:1770" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1836:1962" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1972:2033" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="2077:13149" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="10979:11112" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="11412:11474" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12494:12580" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12935:13110" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13159:13240" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13308:13449" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="13459:13558" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13590:15096" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15106:15172" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15209:15596" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15606:15688" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15756:16280" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16290:16355" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="16433:18667" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16776:17187" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18677:18749" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18817:20134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/Flight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1476111064159" expanded="true" signature="6:74" ph="..." />
+            <marker date="1476111064159" expanded="true" signature="97:1893" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="123:1891" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="440:504" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="543:741" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="751:809" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="850:902" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="912:967" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1016:1381" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="1391:1465" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1510:1885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/FlightsForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <marker date="1476109634360" expanded="true" signature="6:121" ph="..." />
+            <marker date="1476109634360" expanded="true" signature="144:20142" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="182:20140" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="197:260" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1208:1276" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1555:1604" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1633:1689" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1699:1770" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1836:1962" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1972:2033" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="2077:13149" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="10979:11112" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="11412:11474" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12494:12580" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12935:13110" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13159:13240" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13308:13449" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="13459:13558" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13590:15096" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15106:15172" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15209:15596" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15606:15688" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15756:16280" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16290:16355" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="16433:18667" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16776:17187" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18677:18749" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18817:20134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/CreateNewFlightForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/MainRunThread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/Flight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1476111064159" expanded="true" signature="6:74" ph="..." />
+            <marker date="1476111064159" expanded="true" signature="97:1893" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="123:1891" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="440:504" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="543:741" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="751:809" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="850:902" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="912:967" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1016:1381" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="1391:1465" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1510:1885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/FlightsForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9792">
+          <caret line="310" column="33" selection-start-line="310" selection-start-column="33" selection-end-line="310" selection-end-column="33" />
+          <folding>
+            <marker date="1476109634360" expanded="true" signature="6:121" ph="..." />
+            <marker date="1476109634360" expanded="true" signature="144:20142" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="182:20140" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="197:260" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1208:1276" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1555:1604" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1633:1689" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1699:1770" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1836:1962" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1972:2033" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="2077:13149" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="10979:11112" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="11412:11474" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12494:12580" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12935:13110" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13159:13240" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13308:13449" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="13459:13558" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13590:15096" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15106:15172" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15209:15596" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15606:15688" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15756:16280" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16290:16355" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="16433:18667" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16776:17187" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18677:18749" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18817:20134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/CreateNewFlightForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/MainRunThread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/Flight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1476111064159" expanded="true" signature="6:74" ph="..." />
+            <marker date="1476111064159" expanded="true" signature="97:1893" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="123:1891" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="440:504" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="543:741" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="751:809" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="850:902" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="912:967" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1016:1381" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="1391:1465" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1510:1885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/FlightsForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1476109634360" expanded="true" signature="6:121" ph="..." />
+            <marker date="1476109634360" expanded="true" signature="144:20142" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="182:20140" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="197:260" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1208:1276" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1555:1604" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1633:1689" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1699:1770" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1836:1962" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1972:2033" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="2077:13149" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="10979:11112" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="11412:11474" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12494:12580" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12935:13110" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13159:13240" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13308:13449" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="13459:13558" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13590:15096" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15106:15172" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15209:15596" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15606:15688" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15756:16280" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16290:16355" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="16433:18667" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16776:17187" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18677:18749" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18817:20134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/CreateNewFlightForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1376">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/MainRunThread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/FlightsHawk.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/2355d2bb/80bac5ee-c957-424f-bf59-3a311ed3eb7b/Flights.dbo.Flights">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/80bac5ee-c957-424f-bf59-3a311ed3eb7b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/MainRunThread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/CreateNewFlightForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/Flight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <marker date="1476111064159" expanded="true" signature="6:74" ph="..." />
+            <marker date="1476111064159" expanded="true" signature="97:1893" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="123:1891" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="440:504" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="543:741" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="751:809" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="850:902" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="912:967" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1016:1381" ph="{...}" />
+            <marker date="1476111064159" expanded="true" signature="1391:1465" ph="/* ... */" />
+            <marker date="1476111064159" expanded="true" signature="1510:1885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../FlightsHawk/FlightsForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <marker date="1476109634360" expanded="true" signature="6:121" ph="..." />
+            <marker date="1476109634360" expanded="true" signature="144:20142" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="182:20140" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="197:260" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1208:1276" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1555:1604" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1633:1689" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1699:1770" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="1836:1962" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="1972:2033" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="2077:13149" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="10979:11112" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="11412:11474" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12494:12580" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="12935:13110" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13159:13240" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13308:13449" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="13459:13558" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="13590:15096" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15106:15172" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15209:15596" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="15606:15688" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="15756:16280" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16290:16355" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="16433:18667" ph="{...}" />
+            <marker date="1476109634360" expanded="true" signature="16776:17187" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18677:18749" ph="/* ... */" />
+            <marker date="1476109634360" expanded="true" signature="18817:20134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

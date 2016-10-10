@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1517035824">
+    <data-source source="LOCAL" name="SQL Server (Microsoft) - jdbc:sqlserver://localhost\NT Service\MSSQLSERVER:1433;databaseName=Flights" uuid="80bac5ee-c957-424f-bf59-3a311ed3eb7b">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost\NT Service\MSSQLSERVER:1433;databaseName=Flights</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server (Microsoft) - jdbc:sqlserver://localhost\NT Service\MSSQLSERVER:1433;databaseName=Flights" uuid="80bac5ee-c957-424f-bf59-3a311ed3eb7b">
+      <secret-storage>master_key</secret-storage>
+      <domain-auth>true</domain-auth>
+      <introspection-scope>Flights:*|*:dbo</introspection-scope>
+      <resolve-scope>Flights:*</resolve-scope>
+    </data-source>
+  </component>
+</project>

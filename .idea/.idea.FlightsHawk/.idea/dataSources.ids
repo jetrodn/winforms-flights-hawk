@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="SQL Server (Microsoft) - jdbc:sqlserver://localhost\NT Service\MSSQLSERVER:1433;databaseName=Flights" uuid="80bac5ee-c957-424f-bf59-3a311ed3eb7b">
+    <database-info product="Microsoft SQL Server" version="11.00.2100" jdbc-version="4.0" driver-name="Microsoft JDBC Driver 4.0 for SQL Server" driver-version="4.0.2206.100">
+      <extra-name-characters>$#@</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <database-model serializer="dbm" rdbms="MSSQL" format-version="2.6">
+      <database id="1" name="Flights">
+        <object-id>6</object-id>
+        <visible>1</visible>
+      </database>
+      <database id="2" name="master">
+        <object-id>1</object-id>
+      </database>
+      <database id="3" name="tempdb">
+        <object-id>2</object-id>
+      </database>
+      <database id="4" name="model">
+        <object-id>3</object-id>
+      </database>
+      <database id="5" name="msdb">
+        <object-id>4</object-id>
+      </database>
+      <database id="6" name="DealYard3">
+        <object-id>5</object-id>
+      </database>
+      <database id="7" name="BigBlueOnline">
+        <object-id>7</object-id>
+      </database>
+      <schema id="8" parent="1" name="dbo">
+        <object-id>1</object-id>
+        <visible>1</visible>
+        <introspection-timestamp>2016-10-10.13:46:17.020</introspection-timestamp>
+      </schema>
+      <schema id="9" parent="1" name="guest">
+        <object-id>2</object-id>
+      </schema>
+      <schema id="10" parent="1" name="INFORMATION_SCHEMA">
+        <object-id>3</object-id>
+      </schema>
+      <schema id="11" parent="1" name="sys">
+        <object-id>4</object-id>
+      </schema>
+      <schema id="12" parent="1" name="db_owner">
+        <object-id>16384</object-id>
+      </schema>
+      <schema id="13" parent="1" name="db_accessadmin">
+        <object-id>16385</object-id>
+      </schema>
+      <schema id="14" parent="1" name="db_securityadmin">
+        <object-id>16386</object-id>
+      </schema>
+      <schema id="15" parent="1" name="db_ddladmin">
+        <object-id>16387</object-id>
+      </schema>
+      <schema id="16" parent="1" name="db_backupoperator">
+        <object-id>16389</object-id>
+      </schema>
+      <schema id="17" parent="1" name="db_datareader">
+        <object-id>16390</object-id>
+      </schema>
+      <schema id="18" parent="1" name="db_datawriter">
+        <object-id>16391</object-id>
+      </schema>
+      <schema id="19" parent="1" name="db_denydatareader">
+        <object-id>16392</object-id>
+      </schema>
+      <schema id="20" parent="1" name="db_denydatawriter">
+        <object-id>16393</object-id>
+      </schema>
+      <table id="21" parent="8" name="Flights">
+        <object-id>245575913</object-id>
+        <created-timestamp>2016-10-03.18:26:36.830</created-timestamp>
+        <modified-timestamp>2016-10-10.11:17:11.207</modified-timestamp>
+      </table>
+      <column id="22" parent="21" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int|0</data-type>
+      </column>
+      <column id="23" parent="21" name="flight_number">
+        <data-type>nvarchar(50)|0</data-type>
+      </column>
+      <column id="24" parent="21" name="aircraft">
+        <data-type>nvarchar(50)|0</data-type>
+      </column>
+      <column id="25" parent="21" name="departure_time">
+        <data-type>datetime|0</data-type>
+      </column>
+      <column id="26" parent="21" name="landing_time">
+        <data-type>datetime|0</data-type>
+      </column>
+      <column id="27" parent="21" name="status">
+        <data-type>nvarchar(20)|0</data-type>
+      </column>
+      <column id="28" parent="21" name="departure">
+        <data-type>nvarchar(30)|0</data-type>
+      </column>
+      <column id="29" parent="21" name="destination">
+        <data-type>nvarchar(30)|0</data-type>
+      </column>
+      <column id="30" parent="21" name="airline">
+        <data-type>nvarchar(30)|0</data-type>
+      </column>
+      <column id="31" parent="21" name="free_seats">
+        <data-type>int|0</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>

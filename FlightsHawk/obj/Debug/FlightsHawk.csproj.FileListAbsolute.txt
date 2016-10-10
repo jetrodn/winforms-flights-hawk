@@ -1,0 +1,5 @@
+D:\Documents\Workflow\Rider Projects\FlightsHawk\FlightsHawk\obj\Debug\FlightsHawk.csprojResolveAssemblyReference.cache
+D:\Documents\Workflow\Rider Projects\FlightsHawk\FlightsHawk\bin\Debug\FlightsHawk.exe
+D:\Documents\Workflow\Rider Projects\FlightsHawk\FlightsHawk\bin\Debug\FlightsHawk.pdb
+D:\Documents\Workflow\Rider Projects\FlightsHawk\FlightsHawk\obj\Debug\FlightsHawk.exe
+D:\Documents\Workflow\Rider Projects\FlightsHawk\FlightsHawk\obj\Debug\FlightsHawk.pdb
