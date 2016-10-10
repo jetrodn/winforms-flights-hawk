@@ -37,13 +37,6 @@ namespace FlightsHawk
         private Button updateButton;
         private Button deleteButton;
 
-        //
-        // Инициализация SQL подключения к Базе Данных
-        //
-        private readonly SqlConnection conection =
-            new SqlConnection("data source = THINKPAD-W540; database = Flights; Integrated Security = SSPI;");
-
-        private readonly SqlCommand command = new SqlCommand();
         private SqlDataReader dataReader;
 
         //
@@ -60,7 +53,8 @@ namespace FlightsHawk
         private void FlightsForm_Load(object sender, EventArgs e)
         {
             //производим коннект к БД
-            command.Connection = conection;
+            Flight flights = new Flight();
+            flights.OpenSqlConection();
             LoadList();
         }
 
@@ -357,9 +351,8 @@ namespace FlightsHawk
             listBox.Items.Clear();
             updateButton.Enabled = false;
 
-            conection.Open();
-            command.CommandText = "SELECT * FROM FLIGHTS";
-            dataReader = command.ExecuteReader();
+            Flight flight = new Flight();
+            dataReader = flight.GetAllFlights();
 
             if (dataReader.HasRows)
             {
@@ -381,7 +374,8 @@ namespace FlightsHawk
                     );
                 }
             }
-            conection.Close();
+
+            flight.CloseSqlConnection();
         }
 
         //
@@ -408,16 +402,12 @@ namespace FlightsHawk
         {
             if (textID.Text != "")
             {
-                conection.Open();
-                String createSqlCommand = "DELETE FROM FLIGHTS WHERE id = '" + textID.Text + "'";
-                command.CommandText = createSqlCommand;
-                command.ExecuteNonQuery();
-                conection.Close();
-
+                String deleteSqlQuery = "DELETE FROM FLIGHTS WHERE id = '" + textID.Text + "'";
+                Flight flight = new Flight();
+                flight.CustomSqlQuery(deleteSqlQuery);
                 MessageBox.Show(@"Flight was deleted!", @"Deleting Flight");
-                conection.Close();
-                RefreshFields();
 
+                RefreshFields();
                 LoadList();
             }
         }
@@ -469,7 +459,7 @@ namespace FlightsHawk
                         count++;
                     }
                 }
-                conection.Close();
+                flights.CloseSqlConnection();
             }
         }
 
@@ -478,7 +468,6 @@ namespace FlightsHawk
         //
         private void updateButton_Click(object sender, EventArgs e)
         {
-            conection.Open();
 
             String updateSqlCommand = "UPDATE FLIGHTS SET " +
                                       "id = '" + textID.Text + "', " +
@@ -493,13 +482,9 @@ namespace FlightsHawk
                                       "free_seats = '" + numericUpDownFreeSeats.Text + "' " +
                                       "WHERE ID = '" + textID.Text + "'";
 
-
-            command.CommandText = updateSqlCommand;
-            command.ExecuteNonQuery();
-            conection.Close();
-
+            Flight flight = new Flight();
+            flight.CustomSqlQuery(updateSqlCommand);
             MessageBox.Show(@"Flight was updated!", @"Updating Flight");
-            conection.Close();
             RefreshFields();
             LoadList();
         }

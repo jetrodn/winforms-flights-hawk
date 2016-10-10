@@ -94,18 +94,14 @@ namespace FlightsHawk
             buttonCreateNewFlight = new Button();
             ((ISupportInitialize)(numericUpDownFreeSeats)).BeginInit();
             this.SuspendLayout();
-            //
-            // labelAirline
-            //
+
             labelAirline.AutoSize = true;
             labelAirline.Location = new Point(73, 561);
             labelAirline.Name = "labelAirline";
             labelAirline.Size = new Size(72, 25);
             labelAirline.TabIndex = 59;
             labelAirline.Text = "Airline";
-            //
-            // comboBoxAirLine
-            //
+
             comboBoxAirLine.FormattingEnabled = true;
             comboBoxAirLine.Items.AddRange(new object[] {
                 "United Airlines",
@@ -116,171 +112,131 @@ namespace FlightsHawk
             comboBoxAirLine.Name = "comboBoxAirLine";
             comboBoxAirLine.Size = new Size(262, 33);
             comboBoxAirLine.TabIndex = 58;
-            //
-            // labelFreeSeats
-            //
+
             labelFreeSeats.AutoSize = true;
             labelFreeSeats.Location = new Point(73, 357);
             labelFreeSeats.Name = "labelFreeSeats";
             labelFreeSeats.Size = new Size(114, 25);
             labelFreeSeats.TabIndex = 57;
             labelFreeSeats.Text = "Free seats";
-            //
-            // numericUpDownFreeSeats
-            //
+
             numericUpDownFreeSeats.Location = new Point(243, 358);
             numericUpDownFreeSeats.Name = "numericUpDownFreeSeats";
             numericUpDownFreeSeats.Size = new Size(120, 31);
             numericUpDownFreeSeats.TabIndex = 56;
-            //
-            // textStatus
-            //
+
             textStatus.Location = new Point(243, 625);
             textStatus.Margin = new Padding(3, 4, 3, 4);
             textStatus.Name = "textStatus";
             textStatus.Size = new Size(262, 31);
             textStatus.TabIndex = 55;
-            //
-            // labelStatus
-            //
+
             labelStatus.AutoSize = true;
             labelStatus.Location = new Point(73, 631);
             labelStatus.Name = "labelStatus";
             labelStatus.Size = new Size(73, 25);
             labelStatus.TabIndex = 54;
             labelStatus.Text = "Status";
-            //
-            // textFrom
-            //
+
             textFrom.Location = new Point(243, 426);
             textFrom.Margin = new Padding(3, 4, 3, 4);
             textFrom.Name = "textFrom";
             textFrom.Size = new Size(262, 31);
             textFrom.TabIndex = 53;
-            //
-            // labelFrom
-            //
+
             labelFrom.AutoSize = true;
             labelFrom.Location = new Point(73, 432);
             labelFrom.Name = "labelFrom";
             labelFrom.Size = new Size(61, 25);
             labelFrom.TabIndex = 52;
             labelFrom.Text = "From";
-            //
-            // textTo
-            //
+
             textTo.Location = new Point(243, 485);
             textTo.Margin = new Padding(3, 4, 3, 4);
             textTo.Name = "textTo";
             textTo.Size = new Size(262, 31);
             textTo.TabIndex = 51;
-            //
-            // labelTo
-            //
+
             labelTo.AutoSize = true;
             labelTo.Location = new Point(73, 485);
             labelTo.Name = "labelTo";
             labelTo.Size = new Size(37, 25);
             labelTo.TabIndex = 50;
             labelTo.Text = "To";
-            //
-            // textDepartureTime
-            //
+
             textDepartureTime.Location = new Point(243, 239);
             textDepartureTime.Margin = new Padding(3, 4, 3, 4);
             textDepartureTime.Name = "textDepartureTime";
             textDepartureTime.Size = new Size(262, 31);
             textDepartureTime.TabIndex = 49;
-            //
-            // labelDepartureTime
-            //
+
             labelDepartureTime.AutoSize = true;
             labelDepartureTime.Location = new Point(73, 245);
             labelDepartureTime.Name = "labelDepartureTime";
             labelDepartureTime.Size = new Size(153, 25);
             labelDepartureTime.TabIndex = 48;
             labelDepartureTime.Text = "Departure time";
-            //
-            // textLandingTime
-            //
+
             textLandingTime.Location = new Point(243, 298);
             textLandingTime.Margin = new Padding(3, 4, 3, 4);
             textLandingTime.Name = "textLandingTime";
             textLandingTime.Size = new Size(262, 31);
             textLandingTime.TabIndex = 47;
-            //
-            // labelLandingTime
-            //
+
             labelLandingTime.AutoSize = true;
             labelLandingTime.Location = new Point(73, 298);
             labelLandingTime.Name = "labelLandingTime";
             labelLandingTime.Size = new Size(135, 25);
             labelLandingTime.TabIndex = 46;
             labelLandingTime.Text = "Landing time";
-            //
-            // textID
-            //
+
             textID.Location = new Point(243, 45);
             textID.Margin = new Padding(3, 4, 3, 4);
             textID.Name = "textID";
             textID.Size = new Size(262, 31);
             textID.TabIndex = 45;
-            //
-            // labelID
-            //
+
             labelID.AutoSize = true;
             labelID.Location = new Point(73, 51);
             labelID.Name = "labelID";
             labelID.Size = new Size(32, 25);
             labelID.TabIndex = 44;
             labelID.Text = "ID";
-            //
-            // textAircraft
-            //
+
             textAircraft.Location = new Point(243, 163);
             textAircraft.Margin = new Padding(3, 4, 3, 4);
             textAircraft.Name = "textAircraft";
             textAircraft.Size = new Size(262, 31);
             textAircraft.TabIndex = 43;
-            //
-            // labelAircraft
-            //
+
             labelAircraft.AutoSize = true;
             labelAircraft.Location = new Point(73, 163);
             labelAircraft.Name = "labelAircraft";
             labelAircraft.Size = new Size(80, 25);
             labelAircraft.TabIndex = 42;
             labelAircraft.Text = "Aircraft";
-            //
-            // textFlightNumber
-            //
+
             textFlightNumber.Location = new Point(243, 104);
             textFlightNumber.Margin = new Padding(3, 4, 3, 4);
             textFlightNumber.Name = "textFlightNumber";
             textFlightNumber.Size = new Size(262, 31);
             textFlightNumber.TabIndex = 41;
-            //
-            // labelFlightNumber
-            //
+
             labelFlightNumber.AutoSize = true;
             labelFlightNumber.Location = new Point(73, 104);
             labelFlightNumber.Name = "labelFlightNumber";
             labelFlightNumber.Size = new Size(143, 25);
             labelFlightNumber.TabIndex = 40;
             labelFlightNumber.Text = "Flight number";
-            //
-            // buttonCreateNewFlight
-            //
+
             buttonCreateNewFlight.Location = new Point(78, 758);
             buttonCreateNewFlight.Name = "buttonCreateNewFlight";
             buttonCreateNewFlight.Size = new Size(427, 52);
             buttonCreateNewFlight.TabIndex = 60;
             buttonCreateNewFlight.Text = "Create new Fligth";
             buttonCreateNewFlight.UseVisualStyleBackColor = true;
-//            buttonCreateNewFlight.Click += this.buttonNewFlight_Click;
-            //
-            // NewFlightForm
-            //
+            buttonCreateNewFlight.Click += this.buttonNewFlight_Click;
+
             this.AutoScaleDimensions = new SizeF(12F, 25F);
             this.AutoScaleMode = AutoScaleMode.Font;
             this.ClientSize = new Size(556, 901);
@@ -312,6 +268,37 @@ namespace FlightsHawk
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        //
+        // Метод, позволяющий создать новый полет
+        //
+        private void buttonNewFlight_Click(object sender, EventArgs e)
+        {
+            if (textID.Text != "" & textFlightNumber.Text != "")
+            {
+                conection.Open();
+                command.Connection = conection; //при инициализации формы производим коннект к БД
+                String createSqlCommand = "INSERT INTO FLIGHTS (id, flight_number, aircraft, departure_time, landing_time, status, departure, destination, airline, free_seats) VALUES ('" +
+                                          textID.Text + "', '" +
+                                          textFlightNumber.Text + "', '" +
+                                          textAircraft.Text + "', '" +
+                                          textDepartureTime.Text + "', '" +
+                                          textLandingTime.Text + "', '" +
+                                          textStatus.Text + "', '" +
+                                          textFrom.Text + "', '" +
+                                          textTo.Text + "', '" +
+                                          comboBoxAirLine.Text + "', '" +
+                                          numericUpDownFreeSeats.Text + "')";
+                command.CommandText = createSqlCommand;
+                command.ExecuteNonQuery();
+                conection.Close();
+
+                MessageBox.Show(@"New flight was successfully added.");
+                conection.Close();
+
+                this.Close();
+            }
         }
     }
 }

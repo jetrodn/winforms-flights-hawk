@@ -65,5 +65,14 @@ namespace FlightsHawk
             dataReader = command.ExecuteReader();
             return dataReader;
         }
+
+        public void DeleteFlight()
+        {
+            OpenSqlConection();
+
+
+
+            CloseSqlConnection();
+        }
     }
 }
